@@ -74,7 +74,7 @@ React + TypeScript · Tailwind CSS             LLM Orchestration (Claude · Gemi
 
 - 💼 Open to freelance projects — **preferably USD/EUR**
 - 📧 [suporte@chefsoffice.com.br](mailto:suporte@chefsoffice.com.br)
-- 🔗 [LinkedIn](https://www.linkedin.com/in/jconradon) *(coming soon)*
+- 🔗 [LinkedIn](https://www.linkedin.com/in/conrado-nogueira-ti)
 
 ---
 
