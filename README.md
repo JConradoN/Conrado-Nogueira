@@ -85,9 +85,9 @@ React + TypeScript · Tailwind CSS             LLM Orchestration (Claude · Gemi
 
 | Project | Description | Stack |
 |---|---|---|
-| [AgenteBIA](https://github.com/JConradoN/DIO-BOOTCAMP-Genai-Dados-AgenteBIA) | AI agent — DIO Bootcamp | Python · GenAI |
-| [NotebookLM Study](https://github.com/JConradoN/DIO-BOOTCAMP-Genai-Dados-NotebookLM) | AI-powered study methodology | NotebookLM |
-| [Graham.io](https://github.com/JConradoN/DIO-BOOTCAMP-Projeto_final-GRAHAM-IO_Last) | Final Bootcamp project | Python |
+| [forte.jus](https://github.com/JConradoN/forte.jus-showcase) | On-premise AI legal assistant — RAG over court files + PJe/TJAP integration. Zero data leaves the office. | Python · FastAPI · Qdrant · Ollama |
+| [Claudio](https://github.com/JConradoN/claudio) | Autonomous agent via Telegram — multi-agent workflows, local LLM, persistent memory | Go · Ollama |
+| [network-diagnoser-ai](https://github.com/JConradoN/network-diagnoser-ai) | AI-powered network diagnostics with real-time NOC dashboard — ARP, SNMP, MikroTik, LLM analysis | Python · Docker |
 
 ---
 
