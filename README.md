@@ -24,7 +24,7 @@ I work at the intersection of **deep infrastructure knowledge** and **modern AI 
 
 Python framework for building LLM agents that run entirely on local hardware. Spec-first, runtime-driven, empirically validated.
 
-- **Core thesis:** *"20% is the model, 80% is the runtime"* — validated across 19 local models over 4 months of benchmarks (ABS → LOP → FORGE → REAL)
+- **Core thesis:** *"20% is the model, 80% is the runtime"* — validated across 19 local models over 4 months of benchmarks ([ABS](https://github.com/JConradoN/agent-benchmark-suite) → [LOP](https://github.com/JConradoN/LOP) → [FORGE](https://github.com/JConradoN/FORGE) → [REAL](https://github.com/JConradoN/REAL))
 - **Results:** FORGE F3 94.4% · REAL P4 91.7% with `qwen3.5:27b` on consumer hardware
 - **Features:** spec-first YAML agents · active guardrails · autonomous reflection · tool registry (agents that create tools) · 4 channels (CLI, HTTP, MCP, Telegram) · multi-agent orchestration · 296 tests
 - **Memory layer:** 3-tier persistent memory — SQLite (structured) · Qdrant/mem0 (semantic) · Kuzu graph (causal)
@@ -66,7 +66,18 @@ React + TypeScript · Tailwind CSS             LLM Orchestration (Claude · Gemi
 
 ## 🔬 Research & Methodology
 
-- **ABS — Agent Benchmark Suite** — personal benchmark methodology for evaluating local LLMs on tool use, reasoning, and agentic tasks. Ran 19 models through 4 progressive stages (ABS → LOP → FORGE → REAL).
+**Benchmark Methodology — 4-Stage Model Certification Funnel**
+
+19 local models entered. Each stage is an elimination gate. Only models that pass all 4 are considered production-ready and deployed in agent-FORGE.
+
+| Stage | Gate question | Repo |
+|-------|--------------|------|
+| **ABS** | Can it call tools at all? | [agent-benchmark-suite](https://github.com/JConradoN/agent-benchmark-suite) |
+| **LOP** | Does it hold under real operational pressure? | [LOP](https://github.com/JConradoN/LOP) |
+| **FORGE** | Can it function as an agent? Multi-turn, chained, autonomous? | [FORGE](https://github.com/JConradoN/FORGE) |
+| **REAL** | Does it work in production? Real browser, real tests, no shortcuts? | [REAL](https://github.com/JConradoN/REAL) |
+| **agent-FORGE** | *Deploy* — production runtime for models that earned it | [agent-FORGE](https://github.com/JConradoN/agent-FORGE) |
+
 - **llms-on-prem** — independent research on the viability of on-premise LLMs for production use. Core finding: *architectural quality is the primary predictor; within good families, scale delivers.*
 - **KDMILE 2026** — paper submitted to the Brazilian Symposium on Knowledge Discovery and Intelligent Systems (Jun 2026).
 
