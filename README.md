@@ -95,7 +95,7 @@ React + TypeScript · Tailwind CSS             LLM Orchestration (Claude · Gemi
 |---|---|---|
 | [forte.jus](https://github.com/JConradoN/forte.jus-showcase) | On-premise AI legal assistant — RAG over court files + PJe/TJAP integration. Zero data leaves the office. | Python · FastAPI · Qdrant · Ollama |
 | [Claudio](https://github.com/JConradoN/claudio) | Autonomous agent via Telegram — multi-agent workflows, local LLM, persistent memory | Go · Ollama |
-| [network-diagnoser-ai](https://github.com/JConradoN/network-diagnoser-ai) | AI-powered network diagnostics with real-time NOC dashboard — ARP, SNMP, MikroTik, LLM analysis | Python · Docker |
+| [fox-noc](https://github.com/JConradoN/fox-noc) | Real-time operations center — network observability, GPU/Ollama/VM telemetry, UPS status, tool runner | Python · Docker |
 
 ---
 
