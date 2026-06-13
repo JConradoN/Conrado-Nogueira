@@ -1,6 +1,3 @@
-# Conrado-Nogueira
-Meu perfil pessoal com informações curriculares. 
-
 # Hi, I'm Conrado 👋
 
 **AI Infrastructure Engineer · On-Prem AI Specialist · SaaS Founder**  
@@ -105,7 +102,7 @@ React + TypeScript · Tailwind CSS             LLM Orchestration (Claude · Gemi
 ## 📫 Get in Touch
 
 - 💼 Open to freelance projects — **preferably USD/EUR**
-- 📧 [suporte@chefsoffice.com.br](mailto:suporte@chefsoffice.com.br)
+- 📧 [jconrado@gmail.com](mailto:jconrado@gmail.com)
 - 🔗 [LinkedIn](https://www.linkedin.com/in/conrado-nogueira-ti)
 
 ---
